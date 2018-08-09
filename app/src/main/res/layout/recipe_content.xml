@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recipe_cv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/default_padding_small"
+    card_view:cardCornerRadius="12dp"
+    android:background="@color/yellow"
+    card_view:cardElevation="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_recipe_height"
+        android:background="@drawable/red_border"
+        android:paddingEnd="@dimen/default_padding"
+        android:paddingStart="@dimen/default_padding">
+
+        <ImageView
+            android:id="@+id/recipe_iv"
+            android:layout_width="@dimen/card_recipe_height"
+            android:layout_height="@dimen/card_recipe_height"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/recipe_image_description"
+            android:src="@drawable/mixingbowl" />
+
+        <RelativeLayout
+            android:id="@+id/card_view_text_container"
+            android:layout_width="@dimen/card_view_text_container"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@id/recipe_iv"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/default_padding"
+            android:paddingStart="@dimen/default_padding">
+
+            <TextView
+                android:id="@+id/recipe_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/card_view_text_container_height"
+                android:gravity="bottom"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                tools:text="@string/recipe_name" />
+
+            <TextView
+                android:id="@+id/servings_title"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/card_view_text_container_height"
+                android:layout_below="@id/recipe_tv"
+                android:gravity="top"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:text="@string/servings_label" />
+
+            <TextView
+                android:id="@+id/servings_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/card_view_text_container_height"
+                android:layout_below="@id/recipe_tv"
+                android:layout_toEndOf="@+id/servings_title"
+                android:gravity="top"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                tools:text="10" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

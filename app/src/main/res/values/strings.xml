@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">My Baking App</string>
+
+    <string name="recipe">Recipe</string>
+
+    <string name="containerId">containerId</string>
+    <string name="ingredients" tools:keep="@string/ingredients">ingredients</string>
+
+    <string name="ingredients_title">Ingredients:</string>
+    <string name="steps_title">Preparation Steps:</string>
+
+    <string name="first_step">You are viewing first step</string>
+    <string name="last_step">You are viewing last step</string>
+
+    <string name="stepFragment">stepFragment</string>
+    <string name="stepDetailFragment">stepDetailFragment</string>
+
+    <string name="widget_no_recipe">No Recipe</string>
+    <string name="widget_select_recipe">Select recipe for ingredients list</string>
+
+    <string name="previous_button">Previous</string>
+    <string name="next_button">Next</string>
+
+    <string name="recipe_image_iv_description">Recipe Step Image Description</string>
+    <string name="recipe_image_description">Recipe Image Description</string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="servings_label">  Servings:</string>
+
+
+
+</resources>

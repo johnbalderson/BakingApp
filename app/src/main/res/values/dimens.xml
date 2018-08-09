@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="dimen_4dp">4dp</dimen>
+    <dimen name="dimen_25dp">25dp</dimen>
+
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="default_padding_small">8dp</dimen>
+    <dimen name="zero_padding">0dp</dimen>
+
+    <dimen name="card_margin">8dp</dimen>
+    <dimen name="card_recipe_height">100dp</dimen>
+
+    <dimen name="photo_size">35dp</dimen>
+
+    <dimen name="player_height">250dp</dimen>
+    <dimen name="exoplayer_container_height">230dp</dimen>
+    <dimen name="container_height">330dp</dimen>
+
+    <dimen name="widget_small_text">14sp</dimen>
+    <dimen name="widget_text_size" tools:keep="@dimen/widget_text_size">12sp</dimen>
+
+    <dimen name="button_padding" tools:keep="@dimen/button_padding">40dp</dimen>
+    <dimen name="button_text_size">12sp</dimen>
+    <dimen name="button_margin_start">10dp</dimen>
+
+    <dimen name="step_text_size">15sp</dimen>
+    <dimen name="ingredients_text_size">17sp</dimen>
+    <dimen name="step_margin">28dp</dimen>
+
+
+
+
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="widget_margin">0dp</dimen>
+
+    <dimen name="card_view_text_container">200dp</dimen>
+    <dimen name="card_view_text_container_height">44dp</dimen>
+
+</resources>

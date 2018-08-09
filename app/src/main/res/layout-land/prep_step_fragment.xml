@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/prep_step_layout"
+    android:orientation="vertical"
+    android:background="@color/yellow"
+    tools:context=".fragments.PreparationStepFragment">
+
+
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/playerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="0dp" />
+
+    <ImageView
+        android:id="@+id/step_iv"
+        android:layout_gravity="center"
+        android:paddingRight="@dimen/fab_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/black"
+        android:id="@+id/recipe_step_detail_text"
+        android:tag="landscape"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/step_margin"
+        android:layout_marginTop="@dimen/step_margin"
+        android:layout_marginRight="@dimen/step_margin"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/previous_button"
+            android:layout_width="@dimen/zero_padding"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/button_margin_start"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold"
+            android:background="@color/lime_green"
+            android:text="@string/previous_button" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="@dimen/zero_padding"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/button_margin_start"
+            android:textSize="@dimen/button_text_size"
+            android:textStyle="bold"
+            android:background="@color/lime_green"
+            android:text="@string/next_button" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
